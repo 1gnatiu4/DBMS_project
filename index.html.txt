@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to the School Management System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .feature-box {
+            background: linear-gradient(135deg, #a8dadc 0%, #457b9d 100%);
+            color: white;
+        }
+        .feature-box:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .accent-text {
+            color: #f1faee; /* A light, contrasting color */
+        }
+        .colorful-shadow {
+            box-shadow: 0 4px 12px rgba(80, 200, 120, 0.4); /* A vibrant green shadow */
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-purple-200 via-pink-200 to-yellow-200 min-h-screen flex items-center justify-center font-sans">
+
+    <div class="max-w-3xl bg-white rounded-xl shadow-lg p-12 text-center colorful-shadow">
+        <h1 class="text-4xl font-bold text-indigo-700 mb-6">
+            <i class="fas fa-graduation-cap text-indigo-500 mr-2"></i> School Management System
+        </h1>
+        <p class="text-gray-700 mb-8 text-lg">
+            <span class="font-semibold text-teal-600">Unlock</span> the potential of your school! Empowering schools, teachers, parents, and students with <span class="accent-text">real-time tools</span> to track and improve academic performance.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+            <div class="feature-box rounded-lg p-6 hover:shadow-md transition duration-300">
+                <i class="fas fa-chalkboard-teacher text-2xl mb-3"></i>
+                <h3 class="text-xl font-semibold mb-2 accent-text">For Teachers</h3>
+                <p class="text-sm text-gray-200">Manage classes, grades, and communicate effectively.</p>
+            </div>
+            <div class="feature-box rounded-lg p-6 hover:shadow-md transition duration-300">
+                <i class="fas fa-users text-2xl mb-3"></i>
+                <h3 class="text-xl font-semibold mb-2 accent-text">For Parents</h3>
+                <p class="text-sm text-gray-200">Stay informed about your child's progress and attendance.</p>
+            </div>
+            <div class="feature-box rounded-lg p-6 hover:shadow-md transition duration-300">
+                <i class="fas fa-book-open text-2xl mb-3"></i>
+                <h3 class="text-xl font-semibold mb-2 accent-text">For Students</h3>
+                <p class="text-sm text-gray-200">Access your grades, assignments, and learning resources.</p>
+            </div>
+            <div class="feature-box rounded-lg p-6 hover:shadow-md transition duration-300">
+                <i class="fas fa-chart-line text-2xl mb-3"></i>
+                <h3 class="text-xl font-semibold mb-2 accent-text">Performance Tracking</h3>
+                <p class="text-sm text-gray-200">Monitor progress and identify areas for improvement.</p>
+            </div>
+        </div>
+
+        <div class="flex justify-center gap-6">
+            <a href="auth/login.php" class="bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-blue-600 hover:to-indigo-600 transition duration-300">
+                <i class="fas fa-sign-in-alt mr-3"></i> Login
+            </a>
+            <a href="auth/signup.php" class="bg-gradient-to-r from-green-500 to-teal-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-green-600 hover:to-teal-600 transition duration-300">
+                <i class="fas fa-user-plus mr-3"></i> Sign Up
+            </a>
+        </div>
+
+        <div class="mt-10 text-sm text-gray-600">
+            Designed with <i class="fas fa-heart text-red-500"></i> by Malata Ignatius | SIN: 2307365923 &copy; 2025
+        </div>
+    </div>
+
+</body>
+</html>
